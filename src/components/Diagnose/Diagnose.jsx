@@ -1,6 +1,7 @@
 import { Box, Button, Flex, Image, Spacer, Text } from '@chakra-ui/react'
 import React from 'react'
 import DiagnosePic from "../../assets/diagnose.png";
+import { Link } from 'react-router-dom';
 
 const Diagnose = () => {
   return (
@@ -34,18 +35,23 @@ const Diagnose = () => {
             Receive accurate diabetes prediction by inputing your medical data
              into our advanced machine learning model
              </Text>
+             
+      <Link to={"/predict"}>
+      <Button
+              fontSize={"18px"}
+                borderRadius={"24px"}
+                backgroundColor={"#171717"}
+                  color={"#ffffff"}
+                  width={"177px"}
+                  height={"62px"}
+                  mt={10}
+                  >
+                  Try Now
+              </Button>
 
-        <Button
-         fontSize={"18px"}
-          borderRadius={"24px"}
-           backgroundColor={"#171717"}
-            color={"#ffffff"}
-            width={"177px"}
-            height={"62px"}
-            mt={10}
-            >
-            Try Now
-        </Button>
+      </Link>
+ 
+       
 
     </Box>
 
