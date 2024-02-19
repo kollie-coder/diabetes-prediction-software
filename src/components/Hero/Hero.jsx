@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 import heroImage from "../../assets/heroImage.png";
 import heroImage2 from "../../assets/heroImage2.png";
@@ -6,29 +6,52 @@ import heroImage2 from "../../assets/heroImage2.png";
 const Hero = () => {
   return (
     <>
-    <Flex>
-        <Box display={{base:"none", md:"flex"}} flex={1}>
-            <Image src={heroImage} alt='imgae1' w={"192px"} h={"192px"} objectFit={"cover"}/>
-        </Box>
-       
-            <Text fontSize={{base:"40px", md:"80px"}} fontWeight={600} 
-            fontFamily={"Source Sans Pro"}
-             textAlign={"center"} lineHeight={"104px"} flex={3}>
+    <Flex alignItems={"center"}>
+
+        <Flex flex={1} direction={"column"} gap={6}>
+
+        <Text fontSize={"64px"}
+            fontWeight={700} 
+            fontFamily={"Poppins"}
+             lineHeight={"96px"}
+             maxW={"674px"}
+             >
                  Diagnose Diabetes With Ease
             </Text>
+
+            <Text color={"#171717"}
+             fontSize={"20px"}
+             fontFamily={"Poppins"}
+              lineHeight={"32px"}
+              fontWeight={400}
+              maxW={"550px"}
+              >
+            DiabetesPredict is an innovative machine learning tool designed to forecast diabetes risk based on patient data, 
+           leveraging advanced algorithms to analyze variables such as glucose levels, BMI, and medical history.
+            </Text>
+
+            <Button width={"260px"} 
+            height={"114px"} 
+            borderRadius={"20px"}
+            color={"rgba(255, 255, 255, 1)"}
+            backgroundColor={"rgba(44, 75, 116, 1)"}
+            fontFamily={"Poppins"}
+            fontWeight={700}
+            fontSize={"24px"}
+            marginTop={"35px"}
+            
+            >
+                 Get Started
+            </Button>
+
+        </Flex>
+            
        
 
-        <Box marginTop='150px' display={{base:"none", md:"flex"}} flex={1}>
-            <Image src={heroImage2} alt='heroImage2' w={"172px"} h={"172px"} objectFit={"cover"} />
+        <Box display={{base:"none", md:"flex"}} flex={1}>
+            <Image src={heroImage2} alt='heroImage2' w={"582px"} h={"639px"} objectFit={"cover"} />
         </Box>
     </Flex>
-
-    <Text color="#171717" fontSize="32px" fontFamily="Source Sans Pro" lineHeight="42px" textAlign="center" py={{base:"10", md:"20"}}>
-    DiabetesPredict is an innovative machine learning tool designed to forecast diabetes risk based on patient data, 
-    leveraging advanced algorithms to analyze variables such as glucose levels, BMI, and medical history. This user-friendly
-     application offers personalized predictions, empowering healthcare professionals to implement preventive measures and optimize 
-     patient care, thereby potentially reducing the incidence and severity of diabetes-related complications.
-    </Text>
 
     </>
   )
