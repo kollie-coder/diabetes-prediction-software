@@ -6,7 +6,7 @@ import heroImage2 from "../../assets/heroImage2.png";
 const Hero = () => {
   return (
     <>
-    <Flex alignItems={"center"}>
+    <Flex alignItems={"center"} gap={4}>
 
         <Flex flex={1} direction={"column"} gap={6}>
 
