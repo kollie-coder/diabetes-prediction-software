@@ -15,7 +15,7 @@ const Guides = () => {
     height={"479px"}
     
     >
-     <Box px={7}>
+     <Box px={5}>
 
      <Text 
          color = '#000000'
@@ -23,7 +23,8 @@ const Guides = () => {
          fontFamily = 'Poppins'
           fontWeight = {600} 
           lineHeight = '28.07px'
-          py={6} 
+          px={2} 
+          py={7}
           >
             Step 1
         </Text>
@@ -33,18 +34,21 @@ const Guides = () => {
     </Box>
          
      
-
-        <Text
-        color = '#171717'
-        fontSize = '20px'
-        fontFamily = 'Source Sans Pro'
-        lineHeight = '30px'
-        pb={10}
+     <Box padding={5} mt={2} width={"371.09px"} height={"173.7px"} borderRadius={"8.77px"} backgroundColor={"#2A4D77"}>
+         <Text
+        color = '#FFFFFF'
+        fontSize = '17.55px'
+        fontFamily = 'Poppins'
+        lineHeight = '28.07px'
+        fontWeight={400}
         >
             Enter your medical data such as glucose, pregnancies, skin thickness,
              blood pressure, insulin, BMI, diabetes predigree function and age
         </Text>
 
+     </Box>
+
+     
      </Box>
 
      
@@ -58,15 +62,16 @@ const Guides = () => {
    width={"412.33px"}
    height={"479px"}
     >
-     <Box px={7}>
+     <Box px={5}>
 
      <Text 
-          color = '#000000'
-          fontSize = '24px' 
-          fontFamily = 'Poppins'
-           fontWeight = {600} 
-           lineHeight = '28.07px'
-           py={6}
+         color = '#000000'
+         fontSize = '24px' 
+         fontFamily = 'Poppins'
+          fontWeight = {600} 
+          lineHeight = '28.07px'
+          px={2} 
+          py={7}
           >
             Step 2
         </Text>
@@ -75,17 +80,18 @@ const Guides = () => {
     </Box>
        
 
-        
-        <Text
-        color = '#171717'
-        fontSize = '20px'
-        fontFamily = 'Source Sans Pro'
-        lineHeight = '30px'
-        pb={10}
+    <Box padding={5} mt={2} width={"371.09px"} height={"173.7px"} borderRadius={"8.77px"} backgroundColor={"#2A4D77"}>
+         <Text
+        color = '#FFFFFF'
+        fontSize = '17.55px'
+        fontFamily = 'Poppins'
+        lineHeight = '28.07px'
+        fontWeight={400}
         >
            Get the prediction outcome. Receive the result of your diabetes prediction 
             based on the provided medical data
         </Text>
+        </Box>
 
      </Box>
 
@@ -98,15 +104,16 @@ const Guides = () => {
     width={"412.33px"}
     height={"479px"}
     >
-     <Box px={7}>
+     <Box px={5}>
 
      <Text 
-          color = '#000000'
-          fontSize = '24px' 
-          fontFamily = 'Poppins'
-           fontWeight = {600} 
-           lineHeight = '28.07px'
-           py={6}
+         color = '#000000'
+         fontSize = '24px' 
+         fontFamily = 'Poppins'
+          fontWeight = {600} 
+          lineHeight = '28.07px'
+          px={2} 
+          py={7}
           >
             Step 3
         </Text>
@@ -116,17 +123,19 @@ const Guides = () => {
       </Box>
        
 
-       
-        <Text
-        color = '#171717'
-        fontSize = '20px'
-        fontFamily = 'Source Sans Pro'
-        lineHeight = '30px'
-        pb={10}
+      <Box padding={5} mt={2} width={"371.09px"} height={"173.7px"} borderRadius={"8.77px"} backgroundColor={"#2A4D77"}>
+         <Text
+        color = '#FFFFFF'
+        fontSize = '17.55px'
+        fontFamily = 'Poppins'
+        lineHeight = '28.07px'
+        fontWeight={400}
         >
             Understand the result. Our system will provide an analysis of the 
           prediction outcome, helping you to interpret the result
         </Text>
+       </Box>
+        
 
      </Box>
 

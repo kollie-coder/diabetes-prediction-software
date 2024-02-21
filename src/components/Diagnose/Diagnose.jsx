@@ -8,29 +8,33 @@ const Diagnose = () => {
     <>
     <Flex 
     justifyContent={"space-between"}
-     borderBottom={"2px solid #f0f0f0"} 
      my={10} pb={5}
      gap={"194px"}
+     alignItems={"center"}
+     justifyItems={"center"}
      >
 
     <Box flex={1}>
         
         <Text
-        color = '#171717'
+        color = '#000000'
         fontSize = '32px'
-        fontFamily = 'Source Sans Pro'
+        fontFamily = 'Poppins'
         fontWeight = {700}
-        lineHeight ='48px'
+        lineHeight ='28.07px'
         >
             Predict diabetes effortlessly
             
         </Text>
 
-        <Text color = '#171717'
+        <Text
+            color = '#000000'
             fontSize = '20px'
-            fontFamily = 'Source Sans Pro'
-            lineHeight = '30px'
+            fontFamily = 'Poppins'
+            lineHeight = '28.07px'
+            fontWeight={400}
             py={5}
+            maxW={"435px"}
             >
             Receive accurate diabetes prediction by inputing your medical data
              into our advanced machine learning model
@@ -38,11 +42,13 @@ const Diagnose = () => {
              
       <Link to={"/predict"}>
       <Button
-              fontSize={"18px"}
-                borderRadius={"24px"}
-                backgroundColor={"#171717"}
+              fontSize={"17.55px"}
+              fontFamily={"Poppins"}
+              fontWeight={700}
+                borderRadius={"20px"}
+                backgroundColor={"#2A4D77"}
                   color={"#ffffff"}
-                  width={"177px"}
+                  width={"162px"}
                   height={"62px"}
                   mt={10}
                   >
@@ -63,8 +69,8 @@ const Diagnose = () => {
          >
             <Image src={DiagnosePic} 
             alt='diagnose'
-             width={"360px"} 
-             height={"360px"}
+             width={"525px"} 
+             height={"548px"}
              objectFit={"cover"}
              />
         </Box>

@@ -5,46 +5,42 @@ import Work from "../../assets/work.png";
 const Collaboration = () => {
   return (
    <>
-   <Text
-    color = '#171717'
-    fontSize = '32px'
-    fontFamily = 'Source Sans Pro'
-    fontWeight = {700}
-    lineHeight = '48px'
-    pb={5}
-    >
-        Work with DiabetesPredict
-    </Text>
+  
 
    <Flex 
    justifyContent={"space-between"} 
-   borderY={"2px solid #f0f0f0"} 
    mb={5} 
    pb={5}
    gap={"495px"}
+   alignItems={"center"}
    >
 
     <Box flex={1} display={{base:"none", md:"flex"}}>
+
         <Image src={Work} alt='work' 
-        width={"317px"} height={"336px"} objectFit={"cover"}/>
+        width={"525px"} height={"548px"} objectFit={"cover"}/>
+
     </Box>
+
 
     <Box flex={1} py={5}>
        <Text
-       color = '#171717'
+       color = '#000000'
        fontSize = '32px'
-       fontFamily = 'Source Sans Pro'
+       fontFamily = 'Poppins'
        fontWeight = {700}
-       lineHeight = '48px'
+       lineHeight = '28.07px'
        >
         As a doctor
        </Text>
 
        <Text
-       color = '#171717'
+       color = '#000000'
        fontSize = '20px'
-       fontFamily = 'Source Sans Pro'
-       lineHeight = '30px'
+       fontFamily = 'Poppins'
+       lineHeight = '28.07px'
+       fontWeight={400}
+       maxW={"410px"}
        py={5}
        >
         Contribute to diabetes research by validating prediction 
@@ -52,13 +48,14 @@ const Collaboration = () => {
        </Text>
 
        <Button
-       fontSize={"18px"}
-       fontWeight={600}
+       fontSize={"17.55px"}
+       fontWeight={700}
+       fontFamily={"Poppins"}
        color={"#ffffff"}
-       backgroundColor={"#171717"}
+       backgroundColor={"#2A4D77"}
        width={"192px"}
-       height={"62px"}
-       borderRadius={"24px"}
+       height={"72px"}
+       borderRadius={"20px"}
        >
         Research with us
        </Button>
