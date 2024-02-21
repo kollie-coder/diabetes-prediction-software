@@ -5,14 +5,14 @@ import Guides from './Guides'
 const Guide = () => {
   return (
     <>
-    <Box borderTop={"2px solid #f0f0f0"} my={5}>
+    <Box my={5}>
 
         <Text color = '#171717' fontSize = '32px'fontFamily = 'Source Sans Pro' 
         fontWeight = {700} lineHeight = '48px' py={5}>
              How it works 
           </Text>
 
-      <Box borderY={"2px solid #f0f0f0"}>
+      <Box>
 
        <Grid
        templateColumns={{
@@ -21,6 +21,7 @@ const Guide = () => {
        }}
        gap={1}
        columnGap={1}
+       
        >
         <Guides />
 

@@ -8,23 +8,31 @@ const Guides = () => {
   return (
     <>
      <GridItem
-    borderRight={"2px solid"}
-    borderColor={"#f0f0f0"}
     overflow={"hidden"}
+    backgroundColor={"#D9D9D9"}
+    borderRadius={"8.77px"}
+    width={"412.33px"}
+    height={"479px"}
+    
     >
-     <Box px={7} alignItems={"center"}>
+     <Box px={7}>
 
-        <Image src={Guide1} alt='guide1' w={"320px"} h={"320px"} objectFit={"cover"} pt={3}/>
-
-        <Text color = '#171717'
-         fontSize = '32px' 
-         fontFamily = 'Source Sans Pro'
-          fontWeight = {700} 
-          lineHeight = '48px'
-          pb={3}
+     <Text 
+         color = '#000000'
+         fontSize = '24px' 
+         fontFamily = 'Poppins'
+          fontWeight = {600} 
+          lineHeight = '28.07px'
+          py={6} 
           >
             Step 1
         </Text>
+
+    <Box display={"flex"} flexDirection={"column"} alignItems={"center"}>
+        <Image src={Guide1} alt='guide1' w={"198.27px"} h={"198.27px"} objectFit={"cover"} pt={3}/>
+    </Box>
+         
+     
 
         <Text
         color = '#171717'
@@ -44,24 +52,30 @@ const Guides = () => {
     </GridItem>
 
     <GridItem
-    borderRight={"2px solid"}
-    borderColor={"#f0f0f0"}
-    overflow={"hidden"}
+   overflow={"hidden"}
+   backgroundColor={"#D9D9D9"}
+   borderRadius={"8.77px"}
+   width={"412.33px"}
+   height={"479px"}
     >
-     <Box px={7} alignItems={"center"}>
+     <Box px={7}>
 
-        <Image src={Guide2} alt='guide1' w={"320px"} h={"320px"} objectFit={"cover"} pt={3}/>
-
-        <Text color = '#171717'
-         fontSize = '32px' 
-         fontFamily = 'Source Sans Pro'
-          fontWeight = {700} 
-          lineHeight = '48px'
-          pb={3}
+     <Text 
+          color = '#000000'
+          fontSize = '24px' 
+          fontFamily = 'Poppins'
+           fontWeight = {600} 
+           lineHeight = '28.07px'
+           py={6}
           >
             Step 2
         </Text>
+    <Box display={"flex"} flexDirection={"column"} alignItems={"center"} >
+       <Image src={Guide2} alt='guide1' w={"198.27px"} h={"198.27px"} objectFit={"cover"} pt={3}/>
+    </Box>
+       
 
+        
         <Text
         color = '#171717'
         fontSize = '20px'
@@ -78,24 +92,31 @@ const Guides = () => {
     </GridItem>
 
     <GridItem
-    borderRight={"2px solid"}
-    borderColor={"#f0f0f0"}
     overflow={"hidden"}
+    backgroundColor={"#D9D9D9"}
+    borderRadius={"8.77px"}
+    width={"412.33px"}
+    height={"479px"}
     >
-     <Box px={7} alignItems={"center"}>
+     <Box px={7}>
 
-        <Image src={Guide3} alt='guide1' w={"320px"} h={"320px"} objectFit={"cover"} pt={3}/>
-
-        <Text color = '#171717'
-         fontSize = '32px' 
-         fontFamily = 'Source Sans Pro'
-          fontWeight = {700} 
-          lineHeight = '48px'
-          pb={3}
+     <Text 
+          color = '#000000'
+          fontSize = '24px' 
+          fontFamily = 'Poppins'
+           fontWeight = {600} 
+           lineHeight = '28.07px'
+           py={6}
           >
             Step 3
         </Text>
 
+      <Box display={"flex"} flexDirection={"column"} alignItems={"center"} >
+         <Image src={Guide3} alt='guide1' w={"198.27px"} h={"198.27px"} objectFit={"cover"} />
+      </Box>
+       
+
+       
         <Text
         color = '#171717'
         fontSize = '20px'
