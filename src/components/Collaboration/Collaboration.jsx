@@ -11,11 +11,10 @@ const Collaboration = () => {
    justifyContent={"space-between"} 
    mb={5} 
    pb={5}
-   gap={"495px"}
    alignItems={"center"}
    >
 
-    <Box flex={1} display={{base:"none", md:"flex"}}>
+    <Box flex={2} display={{base:"none", md:"flex"}}>
 
         <Image src={Work} alt='work' 
         width={"525px"} height={"548px"} objectFit={"cover"}/>
@@ -41,7 +40,7 @@ const Collaboration = () => {
        lineHeight = '28.07px'
        fontWeight={400}
        maxW={"410px"}
-       py={5}
+       py={10}
        >
         Contribute to diabetes research by validating prediction 
         results from diabetespredict via historical patients data
@@ -62,6 +61,12 @@ const Collaboration = () => {
     </Box>
 
    </Flex>
+
+   <Flex alignContent={"center"} justifyContent={"center"} mt={8} display={{base:"none",md:"flex"}}>
+   <Box width={"323px"} height={"9px"} borderRadius={"2px"} backgroundColor={"#D9D9D9"} />
+
+  </Flex>
+
    </>
   )
 }

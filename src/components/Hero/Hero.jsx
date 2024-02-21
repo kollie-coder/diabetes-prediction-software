@@ -8,15 +8,16 @@ const Hero = () => {
     <>
     <Flex alignItems={"center"} gap={4}>
 
-        <Flex flex={1} direction={"column"} gap={6}>
+        <Flex flex={1} direction={"column"} gap={6} >
 
-        <Text fontSize={"64px"}
+        <Text 
+          fontSize={{base:"30px",md:"64px"}}
             fontWeight={700} 
             fontFamily={"Poppins"}
-             lineHeight={"96px"}
-             maxW={"674px"}
+             lineHeight={{base:"45px",md:"96px"}}
+             maxW={{base:"318px",md:"674px"}}
              >
-                 Diagnose Diabetes With Ease
+                 Predict Diabetes With Ease
             </Text>
 
             <Text color={"#171717"}
@@ -30,14 +31,15 @@ const Hero = () => {
            leveraging advanced algorithms to analyze variables such as glucose levels, BMI, and medical history.
             </Text>
 
-            <Button width={"260px"} 
-            height={"114px"} 
-            borderRadius={"20px"}
+            <Button 
+            width={{base:"201px",md:"260px"}}
+            height={{base:"50px",md:"114px"}} 
+            borderRadius={{base:"10px",md:"20px"}}
             color={"rgba(255, 255, 255, 1)"}
             backgroundColor={"rgba(44, 75, 116, 1)"}
             fontFamily={"Poppins"}
-            fontWeight={700}
-            fontSize={"24px"}
+            fontWeight={{base:400, md:700}}
+            fontSize={{base:"22.71px",md:"24px"}}
             marginTop={"35px"}
             
             >
@@ -53,6 +55,11 @@ const Hero = () => {
         </Box>
     </Flex>
 
+<Flex alignContent={"center"} justifyContent={"center"} mt={8} display={{base:"none",md:"flex"}}>
+   <Box width={"323px"} height={"9px"} borderRadius={"2px"} backgroundColor={"#D9D9D9"} />
+
+</Flex>
+   
     </>
   )
 }
