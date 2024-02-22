@@ -1,9 +1,9 @@
 import { Box, Container, Flex, Image, Text } from '@chakra-ui/react'
 import React from 'react'
-import Twitter from "../../assets/twitter.png";
-import Facebook from "../../assets/facebook.png";
-import Whatsapp from "../../assets/whatsapp.png";
-import Instagram from "../../assets/instagram.png";
+import { RiTwitterXLine } from "react-icons/ri";
+import { FiFacebook } from "react-icons/fi";
+import { RiWhatsappLine } from "react-icons/ri";
+import { RiInstagramLine } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -26,22 +26,22 @@ const Footer = () => {
         gap={20}>
 
             <Box display={"flex"} flexDir={"column"} alignItems={"center"} gap={2}>
-                <Image src={Twitter} alt='twitter' w={"41px"} h={"41px"} objectFit={"cover"}/>
+              <RiTwitterXLine color={"#ffff"} fontSize={"41px"} />
                 <Text fontFamily={"Poppins"} fontWeight={600} fontSize={"24px"} lineHeight={"28.07px"} color={"#FFFFFF"}>Twitter</Text>
             </Box>
                 
             <Box display={"flex"} flexDir={"column"} alignItems={"center"} gap={2}>
-            <Image src={Facebook} alt='facebook' w={"22px"} h={"41px"} objectFit={"cover"}/> 
+            <FiFacebook color={"#ffff"} fontSize={"41px"} /> 
             <Text fontFamily={"Poppins"} fontWeight={600} fontSize={"24px"} lineHeight={"28.07px"} color={"#FFFFFF"}>Facebook</Text>
             </Box>
 
             <Box display={"flex"} flexDir={"column"} alignItems={"center"} gap={2}>
-            <Image src={Whatsapp} alt='whatsapp' w={"41px"} h={"41px"} objectFit={"cover"}/>
+            <RiWhatsappLine color={"#ffff"} fontSize={"41px"}/>
             <Text fontFamily={"Poppins"} fontWeight={600} fontSize={"24px"} lineHeight={"28.07px"} color={"#FFFFFF"}>WhatsApp</Text>
             </Box>
 
             <Box display={"flex"} flexDir={"column"} alignItems={"center"} gap={2}>
-                <Image src={Instagram} alt='instagram' w={"41px"} h={"41px"} objectFit={"cover"}/>
+               <RiInstagramLine color={"#ffff"} fontSize={"41px"}/>
                 <Text fontFamily={"Poppins"} fontWeight={600} fontSize={"24px"} lineHeight={"28.07px"} color={"#FFFFFF"}>Instagram</Text>
             </Box>
             
