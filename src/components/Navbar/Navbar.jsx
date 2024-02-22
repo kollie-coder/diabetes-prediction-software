@@ -6,26 +6,26 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   return (
-    <Container maxW={"container.2xl"} >
+    <Container maxW={"full"} px={4} > 
 
       <Flex justifyContent={"space-between"} alignItems={"center"}>
 
         <Link to={"/"}>
-      <Image src={Logo} alt='logo' w={80}/>
+      <Image src={Logo} alt='logo' w={{base:60, lg:80}}/>
       </Link>
 
-      <Flex gap={4} display={{base:"none", md:"flex"}}>
+      <Flex gap={4} display={{base:"none", md:"flex"}} pr={8}>
         <Button width={"177px"} height={"64px"} borderRadius={"20px"} padding={"10px"} background='rgba(44, 75, 116, 1)' color={"white"}>
           Get Started
         </Button>
 
         <Button width={"177px"} height={"64px"} borderRadius={"20px"} padding={"10px"} colorScheme='rgba(44, 75, 116, 1)' variant={"outline"}>
-          About Us
+          Try Now
         </Button> 
 
       </Flex>
 
-      <Box display={{base:'flex',md:"none"}} >
+      <Box display={{base:'flex',md:"none"}} pr={{base:2, md:4}} >
       
       <RxHamburgerMenu size={"25px"}/>
       </Box>

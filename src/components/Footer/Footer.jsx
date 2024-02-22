@@ -14,7 +14,7 @@ const Footer = () => {
     backgroundColor={"#2A4D77"}
     borderRadius={"20px 20px 0px 0px"}
      h={"264px"} 
-     w={"1440px"}
+     
      alignContent={"center"} 
      justifyContent={"center"}
       alignItems={"center"} 
