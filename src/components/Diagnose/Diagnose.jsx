@@ -15,7 +15,7 @@ const Diagnose = () => {
         my={{ base: 5, md: 10 }}
         pb={5}
         gap={{ base: "30px", md: "194px" }}
-        px={4}
+        
       >
         <Box flex={{ base: "initial", md: 1 }} px={{ base: 5, md: 0 }}>
           <Text

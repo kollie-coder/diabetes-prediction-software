@@ -54,7 +54,7 @@ const Hero = () => {
 
         {isLargerThanMD && (
           <Box flex={{ base: "auto", md: 1 }}>
-            <Image src={heroImage2} alt="heroImage2" w="582px" h="639px" objectFit="cover" />
+            <Image src={heroImage2} alt="heroImage2" width={{base:"370px",lg:"482px", xl:"582px"}} size h="639px" objectFit="cover" />
           </Box>
         )}
       </Flex>

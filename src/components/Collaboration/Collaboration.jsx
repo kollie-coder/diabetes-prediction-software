@@ -13,7 +13,7 @@ const Collaboration = () => {
         mb={5}
         pb={5}
         alignItems={isLargerThanMD ? "center" : "initial"}
-        px={4}
+        pl={4}
       >
         {isLargerThanMD && (
           <Box flex={2} mb={0}>
