@@ -62,11 +62,7 @@ const Collaboration = () => {
 
    </Flex>
 
-   <Flex alignContent={"center"} justifyContent={"center"} mt={8} display={{base:"none",md:"flex"}}>
-   <Box width={"323px"} height={"9px"} borderRadius={"2px"} backgroundColor={"#D9D9D9"} />
-
-  </Flex>
-
+  
    </>
   )
 }
