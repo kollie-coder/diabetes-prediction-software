@@ -8,7 +8,7 @@ const Hero = () => {
 
   return (
     <>
-      <Flex alignItems="center" gap={6} flexWrap={{ base: "wrap", md: "nowrap" }} px={2} mt={{base:10,md:2}}>
+      <Flex alignItems="center" gap={6} flexWrap={{ base: "wrap", md: "nowrap" }} px={2} mt={{base:16,md:2}}>
         <Flex
           flex={{ base: "auto", md: 1 }}
           direction="column"
