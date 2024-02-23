@@ -6,7 +6,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   return (
-    <Container maxW={"full"} px={4} > 
+    <Container maxW={"container.xl"} px={4} > 
 
       <Flex justifyContent={"space-between"} alignItems={"center"} pt={8}>
 
