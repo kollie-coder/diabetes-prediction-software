@@ -8,7 +8,7 @@ const Guide = () => {
      <Box my={5} px={4}>
 
 <Text color='#171717' fontSize='32px' fontFamily='Source Sans Pro'
-  fontWeight={700} lineHeight='48px' py={20}>
+  fontWeight={700} lineHeight='48px' py={{base:10, md:20}} mt={{base:20,md:0}}>
   How it works
 </Text>
 

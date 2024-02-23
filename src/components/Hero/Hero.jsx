@@ -8,19 +8,20 @@ const Hero = () => {
 
   return (
     <>
-      <Flex alignItems="center" gap={4} flexWrap={{ base: "wrap", md: "nowrap" }} px={4} mt={{sm:6,md:2}}>
+      <Flex alignItems="center" gap={6} flexWrap={{ base: "wrap", md: "nowrap" }} px={2} mt={{base:10,md:2}}>
         <Flex
           flex={{ base: "auto", md: 1 }}
           direction="column"
           gap={6}
-          textAlign={{ base: "center", md: "initial" }}
+          //textAlign={{ base: "center", md: "initial" }}
           maxWidth={{ base: "100%", md: "50%" }}
         >
           <Text
-            fontSize={{ base: "30px", md: "64px" }}
+            fontSize={{ base: "40px", md: "64px" }}
             fontWeight={700}
             fontFamily="Poppins"
-            lineHeight={{ base: "45px", md: "96px" }}
+            lineHeight={{ base: "50px", md: "96px" }}
+            maxWidth={{ base: "318px", md: "674px" }}
           >
             Predict Diabetes With Ease
           </Text>

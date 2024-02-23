@@ -23,7 +23,7 @@ const Diagnose = () => {
             fontSize='32px'
             fontFamily='Poppins'
             fontWeight={700}
-            lineHeight='28.07px'
+            lineHeight={'38.07px'}
             py={4}
            
           >

@@ -1,4 +1,4 @@
-import { Box, Button, Container, Flex, Image } from '@chakra-ui/react'
+import { Box, Button, Container, Flex, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 import Logo from "../../assets/logo.png";
 import { Link } from 'react-router-dom';
@@ -8,10 +8,11 @@ const Navbar = () => {
   return (
     <Container maxW={"full"} px={4} > 
 
-      <Flex justifyContent={"space-between"} alignItems={"center"}>
+      <Flex justifyContent={"space-between"} alignItems={"center"} pt={8}>
 
         <Link to={"/"}>
-      <Image src={Logo} alt='logo' w={{base:60, lg:80}}/>
+    {  /*<Image src={Logo} alt='logo' w={{base:60, lg:80}}/>*/}
+       <Text fontSize={{base:"18px", sm:"22px", md:"25px"}} fontWeight={600} fontFamily={"Poppins"} pl={4}>DIABETESPREDICT</Text>
       </Link>
 
       <Flex gap={4} display={{base:"none", md:"flex"}} pr={8}>
