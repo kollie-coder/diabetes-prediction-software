@@ -7,38 +7,36 @@ import Guide3 from "../../assets/guide3.png";
 const Guides = () => {
   return (
     <>
-     <GridItem
-        overflow={"hidden"}
-        backgroundColor={"#D9D9D9"}
-        borderRadius={"8.77px"}
-        width={"100%"} // Set width to 100%
-        height={"479px"}
-        mb={4} // Add margin bottom for spacing
-      >
-        <Box px={5}>
+    <Flex gap={4} overflowX="auto" sx={{ '&::-webkit-scrollbar': { display: 'none' } }}>
 
-          <Text
-            color='#000000'
-            fontSize='24px'
-            fontFamily='Poppins'
-            fontWeight={600}
-            lineHeight='28.07px'
-            px={2}
-            py={7}
-          >
-            Step 1
-          </Text>
-
-          <Box display={"flex"} flexDirection={"column"} alignItems={"center"}>
-            <Image src={Guide1} alt='guide1' w={"198.27px"} h={"198.27px"} objectFit={"cover"} pt={3} />
-          </Box>
-
-        <Box
-      padding={["3", "4", "5"]} // Adjust padding for different screen sizes
-      mt={["1", "2"]} // Adjust margin top for different screen sizes
+<Box
+  backgroundColor={"#D9D9D9"}
+  borderRadius={"8.77px"}
+  width={"412.33px"} // Set width to 412.33px
+  height={"479px"}
+  mb={4} // Add margin bottom for spacing
+>
+  <Box px={5}>
+    <Text
+      color='#000000'
+      fontSize='24px'
+      fontFamily='Poppins'
+      fontWeight={600}
+      lineHeight='28.07px'
+      px={2}
+      py={7}
+    >
+      Step 1
+    </Text>
+    <Box display={"flex"} flexDirection={"column"} alignItems={"center"}>
+      <Image src={Guide1} alt='guide1' w={"198.27px"} h={"198.27px"} objectFit={"cover"} pt={3} />
+    </Box>
+    <Box
+      padding={5}
+      mt={2}
       borderRadius={"8.77px"}
       backgroundColor={"#2A4D77"}
-      width={"100%"} // Set width to 100% to ensure it spans the entire grid item
+      width={"371.09px"}
       height={"173.7px"}
     >
       <Text
@@ -48,24 +46,21 @@ const Guides = () => {
         lineHeight={['22px', '24px', '28.07px']} // Adjust line height for different screen sizes
         fontWeight={400}
       >
-    Enter your medical data such as glucose, pregnancies, skin thickness,
-    blood pressure, insulin, BMI, diabetes predigree function and age
-  </Text>
+        Enter your medical data such as glucose, pregnancies, skin thickness, blood pressure, insulin, BMI, diabetes predigree function and age
+      </Text>
+    </Box>
+  </Box>
 </Box>
-
-        </Box>
-
-      </GridItem>
 
      
 
-      <GridItem
-        overflow={"hidden"}
-        backgroundColor={"#D9D9D9"}
-        borderRadius={"8.77px"}
-        width={"100%"} // Set width to 100%
-        height={"479px"}
-        mb={4} // Add margin bottom for spacing
+      <Box
+       
+       backgroundColor={"#D9D9D9"}
+       borderRadius={"8.77px"}
+       width={"412.33px"} // Set width to 412.33px
+       height={"479px"}
+       mb={4} // Add margin bottom for spacing
       >
      <Box px={5}>
 
@@ -86,11 +81,11 @@ const Guides = () => {
        
 
     <Box
-      padding={["3", "4", "5"]} // Adjust padding for different screen sizes
-      mt={["1", "2"]} // Adjust margin top for different screen sizes
+      padding={5} 
+      mt={2} 
       borderRadius={"8.77px"}
       backgroundColor={"#2A4D77"}
-      width={"100%"} // Set width to 100% to ensure it spans the entire grid item
+      width={"371.09px"}
       height={"173.7px"}
     >
       <Text
@@ -107,14 +102,14 @@ const Guides = () => {
 
      </Box>
 
-    </GridItem>
+    </Box>
 
 
-    <GridItem
-        overflow={"hidden"}
+    <Box
+        
         backgroundColor={"#D9D9D9"}
         borderRadius={"8.77px"}
-        width={"100%"} // Set width to 100%
+        width={"412.33px"} // Set width to 412.33px
         height={"479px"}
         mb={4} // Add margin bottom for spacing
       >
@@ -138,11 +133,11 @@ const Guides = () => {
        
 
            <Box
-      padding={["3", "4", "5"]} // Adjust padding for different screen sizes
-      mt={["1", "2"]} // Adjust margin top for different screen sizes
+      padding={5} 
+      mt={2} 
       borderRadius={"8.77px"}
       backgroundColor={"#2A4D77"}
-      width={"100%"} // Set width to 100% to ensure it spans the entire grid item
+      width={"371.09px"}
       height={"173.7px"}
     >
       <Text
@@ -160,7 +155,10 @@ const Guides = () => {
 
      </Box>
 
-    </GridItem>
+    </Box>
+
+    </Flex>
+    
 
 
     </>
