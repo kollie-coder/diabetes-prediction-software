@@ -1,7 +1,6 @@
 import { Box, Button, Flex, Text, Image, useMediaQuery } from '@chakra-ui/react';
 import React from 'react';
 import DiagnosePic from "../../assets/diagnose.png";
-import { Link } from 'react-router-dom';
 
 const Diagnose = () => {
   const [isLargerThanMD] = useMediaQuery("(min-width: 768px)");
@@ -59,7 +58,7 @@ const Diagnose = () => {
               Try Now
             </Button>
           </a>
-          
+
         </Box>
 
         {isLargerThanMD && (
