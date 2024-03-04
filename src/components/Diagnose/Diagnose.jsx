@@ -43,7 +43,7 @@ const Diagnose = () => {
             Receive accurate diabetes prediction by inputting your medical data into our advanced machine learning model
           </Text>
 
-          <Link to={"/predict"}>
+          <a href={"/predict"}>
             <Button
               fontSize={"17.55px"}
               fontFamily={"Poppins"}
@@ -58,7 +58,8 @@ const Diagnose = () => {
             >
               Try Now
             </Button>
-          </Link>
+          </a>
+          
         </Box>
 
         {isLargerThanMD && (
