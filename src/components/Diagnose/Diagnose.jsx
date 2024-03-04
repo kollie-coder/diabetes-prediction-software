@@ -1,10 +1,12 @@
 import { Box, Button, Flex, Text, Image, useMediaQuery } from '@chakra-ui/react';
 import React from 'react';
 import DiagnosePic from "../../assets/diagnose.png";
+import { Link } from 'react-router-dom';
 
 const Diagnose = () => {
   const [isLargerThanMD] = useMediaQuery("(min-width: 768px)");
 
+  
   return (
     <>
       <Flex
@@ -42,7 +44,7 @@ const Diagnose = () => {
             Receive accurate diabetes prediction by inputting your medical data into our advanced machine learning model
           </Text>
 
-          <a href="/predict">
+          <Link to={"/predict"}>
             <Button
               fontSize={"17.55px"}
               fontFamily={"Poppins"}
@@ -57,8 +59,7 @@ const Diagnose = () => {
             >
               Try Now
             </Button>
-          </a>
-
+          </Link>
         </Box>
 
         {isLargerThanMD && (

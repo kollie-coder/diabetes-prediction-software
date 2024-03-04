@@ -14,7 +14,7 @@ import {
   useBreakpointValue,
   Grid,
 } from '@chakra-ui/react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import useShowToast from '../../hooks/useShowToast';
 
@@ -22,6 +22,10 @@ const Predict = () => {
 
   const showToast = useShowToast();
   const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when component mounts
+  }, []); // Empty dependency array ensures it only runs once when component mounts
 
   // Determine the number of columns based on screen size
   const columns = useBreakpointValue({ base: 1, md: 2 });
