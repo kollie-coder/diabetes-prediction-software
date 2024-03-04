@@ -102,7 +102,7 @@ if (prediction === 1) {
 setIsLoading(false);
 
   } catch (error) {
-    // Handle errors
+   
     console.error('Error occurred:', error);
     showToast("Error", error.message, "Error");
     setIsLoading(false);
@@ -134,13 +134,13 @@ setIsLoading(false);
           </FormControl>
 
           <FormControl>
-            <FormLabel>Glucose</FormLabel>
-            <Input id="glucose" placeholder="Glucose, 0 - 200" />
+            <FormLabel>Glucose Level</FormLabel>
+            <Input id="glucose" placeholder="Glucose Level, 0 - 200" />
           </FormControl>
 
           <FormControl>
-            <FormLabel>BloodPressure</FormLabel>
-            <Input id="bloodPressure" placeholder="BloodPressure, 0 - 130" />
+            <FormLabel>Blood Pressure</FormLabel>
+            <Input id="bloodPressure" placeholder="Blood Pressure, 0 - 130" />
           </FormControl>
 
           <FormControl>
@@ -159,8 +159,8 @@ setIsLoading(false);
           </FormControl>
 
           <FormControl>
-            <FormLabel>DiabetesPedigreeFunction</FormLabel>
-            <Input id="diabetesPedigreeFunction" placeholder="DiabetesPedigreeFunction, 0 - 3" />
+            <FormLabel>Diabetes Pedigree Function</FormLabel>
+            <Input id="diabetesPedigreeFunction" placeholder="Diabetes Pedigree Function, 0 - 3" />
           </FormControl>
 
           <FormControl>

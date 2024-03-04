@@ -5,7 +5,7 @@ import Guides from './Guides'
 const Guide = () => {
   return (
     <>
-     <Box my={5}>
+     <Box my={5} id="guide-section">
 
 <Text color='#171717' fontSize='32px' fontFamily='Source Sans Pro'
   fontWeight={700} lineHeight='48px' py={{base:10, md:20}} mt={{base:20,md:0}}>

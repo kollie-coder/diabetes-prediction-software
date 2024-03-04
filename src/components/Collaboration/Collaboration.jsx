@@ -1,6 +1,7 @@
 import { Box, Button, Flex, Image, Text, useMediaQuery } from '@chakra-ui/react'
 import React from 'react'
 import Work from "../../assets/work.png";
+import { Link } from 'react-scroll';
 
 const Collaboration = () => {
   const [isLargerThanMD] = useMediaQuery("(min-width: 768px)");
@@ -51,6 +52,7 @@ const Collaboration = () => {
             results from diabetespredict via historical patients data
           </Text>
 
+          <Link to="guide-section" smooth={true} duration={500}>
           <Button
             fontSize={"17.55px"}
             fontWeight={700}
@@ -63,6 +65,7 @@ const Collaboration = () => {
           >
             Get Started
           </Button>
+          </Link>
         </Box>
       </Flex>
     </>

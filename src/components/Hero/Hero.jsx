@@ -2,6 +2,7 @@ import { Box, Button, Flex, Image, Text, useMediaQuery } from '@chakra-ui/react'
 import React from 'react';
 import heroImage from "../../assets/heroImage.png";
 import heroImage2 from "../../assets/heroImage2.png";
+import { Link } from 'react-scroll';
 
 const Hero = () => {
   const [isLargerThanMD] = useMediaQuery("(min-width: 768px)");
@@ -37,6 +38,9 @@ const Hero = () => {
             DiabetesPredict is an innovative machine learning tool designed to forecast diabetes risk based on patient data, leveraging advanced algorithms to analyze variables such as glucose levels, BMI, and medical history.
           </Text>
 
+
+          <Link to="guide-section" smooth={true} duration={500}>
+
           <Button
             width={{ base: "201px", md: "260px" }}
             height={{ base: "50px", md: "114px" }}
@@ -51,6 +55,10 @@ const Hero = () => {
           >
             Get Started
           </Button>
+
+
+          </Link>
+
         </Flex>
 
         {isLargerThanMD && (
