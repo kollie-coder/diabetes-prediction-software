@@ -133,33 +133,33 @@ setIsLoading(false);
           gap={8}
         >
           <FormControl>
-            <FormLabel>Pregnancies</FormLabel>
-            <Input id="pregnancies" placeholder="Pregnancies, 0 - 17 " />
+            <FormLabel>Number of times pregnant</FormLabel>
+            <Input id="pregnancies" placeholder="Number of times pregnant, 0 - 17 " />
           </FormControl>
 
           <FormControl>
-            <FormLabel>Glucose Level</FormLabel>
-            <Input id="glucose" placeholder="Glucose Level, 0 - 200" />
+            <FormLabel>Plasma glucose</FormLabel>
+            <Input id="glucose" placeholder="Plasma glucose, 0 - 200" />
           </FormControl>
 
           <FormControl>
-            <FormLabel>Blood Pressure</FormLabel>
-            <Input id="bloodPressure" placeholder="Blood Pressure, 0 - 130" />
+            <FormLabel>Diastolic blood pressure (mm Hg)</FormLabel>
+            <Input id="bloodPressure" placeholder="Diastolic blood pressure (mm Hg), 0 - 130" />
           </FormControl>
 
           <FormControl>
-            <FormLabel>Skin Thickness</FormLabel>
-            <Input id="skinThickness" placeholder="Skin Thickness, 0 - 100" />
+            <FormLabel>Triceps skin fold thickness (mm)</FormLabel>
+            <Input id="skinThickness" placeholder="Triceps skin fold thickness (mm), 0 - 100" />
           </FormControl>
 
           <FormControl>
-            <FormLabel>Insulin</FormLabel>
-            <Input id="insulin" placeholder="Insulin, 0 - 200" />
+            <FormLabel>2-Hour serum insulin (mu U/ml)</FormLabel>
+            <Input id="insulin" placeholder="2-Hour serum insulin (mu U/ml), 0 - 200" />
           </FormControl>
 
           <FormControl>
-            <FormLabel>BMI</FormLabel>
-            <Input id="bmi" placeholder="BMI, 0 - 100" />
+            <FormLabel>Body mass index (weight in kg/(height in m²))</FormLabel>
+            <Input id="bmi" placeholder="Body mass index (weight in kg/(height in m²)), 0 - 100" />
           </FormControl>
 
           <FormControl>
@@ -168,8 +168,8 @@ setIsLoading(false);
           </FormControl>
 
           <FormControl>
-            <FormLabel>Age</FormLabel>
-            <Input id="age" placeholder="Age, 21 above" />
+            <FormLabel>Age (years)</FormLabel>
+            <Input id="age" placeholder="Age (years), 21 above" />
           </FormControl>
         </Grid>
        
