@@ -44,7 +44,7 @@ const Diagnose = () => {
             Receive accurate diabetes prediction by inputting your medical data into our advanced machine learning model
           </Text>
 
-          <Link to={"/#"}>
+          <Link to={"/predict"}>
             <Button
               fontSize={"17.55px"}
               fontFamily={"Poppins"}
