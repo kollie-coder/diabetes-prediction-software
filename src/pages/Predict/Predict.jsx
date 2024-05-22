@@ -1,4 +1,4 @@
-{/*import {
+import {
   Box,
   Button,
   Container,
@@ -197,4 +197,4 @@ setIsLoading(false);
   );
 };
 
-export default Predict;*/}
+export default Predict;
